@@ -1,0 +1,261 @@
+.doram{
+    color:beige;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder; /** grozor **/
+    text-align: center;
+    border: 10px darkorchid;
+    padding: 10px;
+    background-color: rgb(193, 158, 225);
+
+}.una img{
+   background-color: rgb(140, 88, 189);
+ 
+}
+body{
+   
+   .bebe {
+     width: 200px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }}
+   .primera {
+    width: 200px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .amor{
+      width: 200px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .bebe, .primera, .amor{
+       
+    color: beige;
+    font-size: 50px;
+    font-family: serif;
+    text-align: center;
+    background: none;  /* Sin fondo */
+    margin: 0;         /* Eliminar márgenes si los hubiera */
+    display: inline;
+
+    }    
+
+   
+    .mm1 {
+     width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm2 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm3 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm6 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm7 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm5 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+    .mm8 {
+         width: 190px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+    }
+
+ 
+
+  .fotolinda{
+      display: flex;
+  align-items: center;      /* Centra verticalmente */
+  justify-content: center;  /* Centra horizontalmente */
+  gap: 20px;                /* Espacio entre imagen y texto */
+  padding: 20px;
+}
+.aa1 {
+    width: 200px;
+     border-radius: 10px;
+     padding: 10px ;
+     background-color: rgb(159, 152, 167);
+}
+.carta {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+    background-color: rgb(140, 88, 189);
+} 
+
+.corazon-boton {
+  font-size: 60px;
+  color: rgb(170, 123, 214);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.corazon-boton:hover {
+  transform: scale(1.2);
+  background-color: rgba(170, 123, 214, 0.3);
+}
+
+ 
+
+    .una {
+        
+    display: flex;
+    flex-wrap: wrap; /* Permite que bajen si no hay espacio */
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(159, 152, 167);
+    border-radius: 10px;
+}
+
+  .una img {
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(159, 152, 167);
+}
+
+    
+   
+.carrusel-container {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  margin: auto;
+  
+}
+
+.carrusel {
+  display: flex;
+  transition: transform 0.4s ease;
+  width: 100%; /* Si tenés 3 imágenes yo tengo 20 asi que ponemos max-content */
+  gap: 10px;
+
+}
+
+.carrusel img {
+  width: 100vw;
+  max-width: 100px;
+  flex-shrink: 0;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY();
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+  button.prev{
+   left: 10px;
+  }
+  button.next{
+   right: 10px;
+  }
+
+
+@media (max-width: 600px) {
+  .carrusel img {
+    max-width: 100vw;
+  }
+}
+ 
+   .carrusel img {
+  width: 100vw;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carrusel img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.foto-con-boton {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.foto-con-boton img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.boton-lila {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(200, 162, 255, 0.6);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mini-texto {
+  display: none;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  background-color: blueviolet;
+  color: #5d0073;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  font-size: 14px;
+  z-index: 5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.foto-con-boton:hover .mini-texto,
+.foto-con-boton:focus-within .mini-texto {
+  display: block;
+}
+
+
+
+
+ 
+ 
+
+
+
+
+  
